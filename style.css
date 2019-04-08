@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'onoff';
+  src: url('onoff.otf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 32px;
+  line-height: 1.4;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section {
+  flex: 0 0 auto;
+  height: 100vh;
+  padding: 2rem 16rem 2rem 4rem;
+  position: relative;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 7rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+a {
+  bottom: 50px;
+  position: absolute;
+  right: 50px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+img {
+  max-height: calc(100vh - 4rem);
+  max-width: calc(100vh - 6rem);
+}
+
+svg {
+  vertical-align: middle;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
